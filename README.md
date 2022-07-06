@@ -8,7 +8,7 @@
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=My+first+Websites)](https://git.io/typing-svg)
 # Website - "WebStudio" 
 
-## STACK - HTML/CSS (BEM, SASS) and few javaScript 
+## STACK - HTML/CSS (BEM, SASS) and few JavaScript 
  
 ![Demonstration](https://github.com/dankozz1t/WebStudio/blob/main/images/demo.gif)
 > Why are you watching video? [Check it out yourself!](https://dankozz1t.github.io/WebStudio/ "Demonstration")
