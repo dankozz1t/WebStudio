@@ -3,7 +3,7 @@
 [![My LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dankozz1/)
 [![My GitHub](https://img.shields.io/badge/GitHub-grey?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/dankozz1t)
 [![My Telegram](https://img.shields.io/badge/Telegram-blue?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/dankozz1)
-[![My Email](https://img.shields.io/badge/alexdankoxxl@gmail.com-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white)](alexdankoxxl@gmail.com)
+[![My Email](https://img.shields.io/badge/alexdankoxxl@gmail.com-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexdankoxxl@gmail.com)
 
 
  [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=My+first+Website)](https://git.io/typing-svg)
