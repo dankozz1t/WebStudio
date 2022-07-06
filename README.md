@@ -6,7 +6,7 @@
 [![My Email](https://img.shields.io/badge/alexdankoxxl@gmail.com-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white)](mailto:alexdankoxxl@gmail.com)
 
 
- [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=My+first+Website)](https://git.io/typing-svg)
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=This+is+my+first+Website)](https://git.io/typing-svg)
 # Website - "WebStudio" 
 
 ## STACK - HTML/CSS (BEM, SASS) and few JavaScript 
