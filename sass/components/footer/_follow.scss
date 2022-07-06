@@ -1,0 +1,36 @@
+.follow__list {
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: $desktop) {
+        margin-right: 70px;
+    }
+}
+
+.follow__item {
+    text-align: center;
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.follow__link {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--light-text-cl);
+
+    transition: background-color var(--transition-time) var(--transition-cubic);
+
+    &:hover,
+    &:focus {
+        background-color: var(--accent-bg-cl);
+    }
+}

@@ -1,0 +1,73 @@
+.newsletter {
+    margin-left: auto;
+}
+
+.newsletter__box {
+    display: block;
+
+    @media screen and (min-width: $table) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media screen and (min-width: $desktop) {
+        flex-direction: row;
+    }
+}
+
+.newsletter__email {
+    margin: 0 0 20px 0;
+    padding: 0 16px;
+
+    width: 100%;
+    height: 50px;
+
+    color: var(--light-text-cl);
+    background: transparent;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    outline: none;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+    &:focus-within {
+        border-color: var(--accent-text-cl);
+    }
+
+    @media screen and (min-width: $table) {
+        width: 450px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 358px;
+        margin: 0 12px 0 0;
+    }
+}
+
+.newsletter__btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    fill: var(--light-text-cl);
+    transition: color var(--transition-time) var(--transition-cubic),
+        background-color var(--transition-time) var(--transition-cubic);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-text-cl);
+        color: var(--accent-text-cl);
+        background-color: var(--main-bg-cl);
+    }
+}
+
+.newsletter__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+
+    letter-spacing: 0.06em;
+    margin-right: 10px;
+}

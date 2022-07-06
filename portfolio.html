@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./images/icon-logo.ico" type="image/x-icon">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a class="logo header__logo" href="./index.html">
+                Web<span class="header__logo--black">Studio</span></a>
+
+            <div class="menu-container" data-menu>
+                <nav class="header__nav">
+                    <ul class="list nav-list">
+                        <li class="nav-list__item">
+                            <a class="link nav-list__link" href="./index.html">Studio</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a class="link nav-list__link  nav-list__link--current"
+                                href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-list__item">
+                            <a class="link nav-list__link" href="">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <ul class="list contacts-list">
+                    <li class="contacts-list__item">
+                        <a class="contacts-list__link contacts-list__link--mail" href="mailto:info@devstudio.com">
+                            <svg class="contacts-list__icon" width="16" height="12">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>
+
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="contacts-list__item">
+                        <a class="contacts-list__link contacts-list__link--tel" href="tel:+380961111111">
+                            <svg class="contacts-list__icon" width="10" height="16">
+                                <use href="./images/icons.svg#icon-smartphone"></use>
+                            </svg>
+
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="list mobile-social-list">
+                    <li class="mobile-social-list__item">
+                        <a class="mobile-social-list__link" href="">Instagram</a>
+                    </li>
+                    <li class="mobile-social-list__item">
+                        <a class="mobile-social-list__link" href="">Twitter</a>
+                    </li>
+                    <li class="mobile-social-list__item">
+                        <a class="mobile-social-list__link" href="">Facebook</a>
+                    </li>
+                    <li class="mobile-social-list__item">
+                        <a class="mobile-social-list__link" href="">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="header__btn" type="button" data-menu-button>
+                <svg width="40" height="40">
+                    <use class="header__icon-open" href="./images/icons.svg#icon-mobile-menu-open"
+                        aria-label="icon mobile menu open"></use>
+                    <use class="header__icon-close" href="./images/icons.svg#icon-mobile-menu-close"
+                        aria-label="icon mobile menu close"></use>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio">
+            <div class="container">
+                <div class="filter">
+                    <h1 hidden>Examples of our work</h1>
+                    <ul class="list filter__list">
+                        <li class="filter__item">
+                            <button class="filter__btn" type="button">All</button>
+                        </li>
+                        <li class="filter__item">
+                            <button class="filter__btn" type="button">Web sites</button>
+                        </li>
+                        <li class="filter__item">
+                            <button class="filter__btn" type="button">Applications</button>
+                        </li>
+                        <li class="filter__item">
+                            <button class="filter__btn" type="button">Design</button>
+                        </li>
+                        <li class="filter__item">
+                            <button class="filter__btn" type="button">Marketing</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="list examples__list">
+                    <li class="examples__item">
+                        <a class="examples__link" href="#">
+                            <div class="examples__overlay">
+                                <picture>
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-1-desktop@1x.webp 1x,
+                        ./images/examples/desktop/portfolio-card-1-desktop@2x.webp 2x,
+                        ./images/examples/desktop/portfolio-card-1-desktop@3x.webp 3x
+                      " media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-1-desktop@1x.jpg 1x,
+                        ./images/examples/desktop/portfolio-card-1-desktop@2x.jpg 2x,
+                        ./images/examples/desktop/portfolio-card-1-desktop@3x.jpg 3x
+                      " media="(min-width: 1200px)" />
+
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-1-table@1x.webp 1x,
+                        ./images/examples/table/portfolio-card-1-table@2x.webp 2x,
+                        ./images/examples/table/portfolio-card-1-table@3x.webp 3x
+                      " media="(min-width: 768px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-1-table@1x.jpg 1x,
+                        ./images/examples/table/portfolio-card-1-table@2x.jpg 2x,
+                        ./images/examples/table/portfolio-card-1-table@3x.jpg 3x
+                      " media="(min-width: 768px)" />
+
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-1-mobile@1x.webp 1x,
+                        ./images/examples/mobile/portfolio-card-1-mobile@2x.webp 2x,
+                        ./images/examples/mobile/portfolio-card-1-mobile@3x.webp 3x
+                      " media="(max-width: 767px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-1-mobile@1x.jpg 1x,
+                        ./images/examples/mobile/portfolio-card-1-mobile@2x.jpg 2x,
+                        ./images/examples/mobile/portfolio-card-1-mobile@3x.jpg 3x
+                      " media="(max-width: 767px)" />
+
+                                    <img class="img examples__img"
+                                        src="./images/examples/mobile/portfolio-card-1-mobile@1x.jpg"
+                                        alt="laptop with website" />
+                                </picture>
+                                <div class="examples__info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Distinctio&nbsp;voluptatem dolorum, molestias dolor sunt
+                                        sit adipisci debitis, earum eaque illum vero
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="examples__card">
+                                <h2 class="examples__title" lang="uk-UA">"Технокряк"</h2>
+                                <p class="examples__text">Web sites</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples__item">
+                        <a class="examples__link" href="#">
+                            <div class="examples__overlay">
+                                <picture>
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-2-desktop@1x.webp 1x,
+                        ./images/examples/desktop/portfolio-card-2-desktop@2x.webp 2x,
+                        ./images/examples/desktop/portfolio-card-2-desktop@3x.webp 3x
+                      " media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-2-desktop@1x.jpg 1x,
+                        ./images/examples/desktop/portfolio-card-2-desktop@2x.jpg 2x,
+                        ./images/examples/desktop/portfolio-card-2-desktop@3x.jpg 3x
+                      " media="(min-width: 1200px)" />
+
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-2-table@1x.webp 1x,
+                        ./images/examples/table/portfolio-card-2-table@2x.webp 2x,
+                        ./images/examples/table/portfolio-card-2-table@3x.webp 3x
+                      " media="(min-width: 768px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-2-table@1x.jpg 1x,
+                        ./images/examples/table/portfolio-card-2-table@2x.jpg 2x,
+                        ./images/examples/table/portfolio-card-2-table@3x.jpg 3x
+                      " media="(min-width: 768px)" />
+
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-2-mobile@1x.webp 1x,
+                        ./images/examples/mobile/portfolio-card-2-mobile@2x.webp 2x,
+                        ./images/examples/mobile/portfolio-card-2-mobile@3x.webp 3x
+                      " media="(max-width: 767px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-2-mobile@1x.jpg 1x,
+                        ./images/examples/mobile/portfolio-card-2-mobile@2x.jpg 2x,
+                        ./images/examples/mobile/portfolio-card-2-mobile@3x.jpg 3x
+                      " media="(max-width: 767px)" />
+
+                                    <img class="img examples__img"
+                                        src="./images/examples/mobile/portfolio-card-2-mobile@1x.jpg"
+                                        alt="Two men with a basketball" />
+                                </picture>
+
+                                <div class="examples__info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Distinctio&nbsp;voluptatem dolorum, molestias dolor sunt
+                                        sit adipisci debitis, earum eaque illum vero
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="examples__card">
+                                <h2 class="examples__title">
+                                    Poster New Orlean vs Golden Star
+                                </h2>
+                                <p class="examples__text">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples__item">
+                        <a class="examples__link" href="#">
+                            <div class="examples__overlay">
+                                <picture>
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-3-desktop@1x.webp 1x,
+                        ./images/examples/desktop/portfolio-card-3-desktop@2x.webp 2x,
+                        ./images/examples/desktop/portfolio-card-3-desktop@3x.webp 3x
+                      " media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-3-desktop@1x.jpg 1x,
+                        ./images/examples/desktop/portfolio-card-3-desktop@2x.jpg 2x,
+                        ./images/examples/desktop/portfolio-card-3-desktop@3x.jpg 3x
+                      " media="(min-width: 1200px)" />
+
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-3-table@1x.webp 1x,
+                        ./images/examples/table/portfolio-card-3-table@2x.webp 2x,
+                        ./images/examples/table/portfolio-card-3-table@3x.webp 3x
+                      " media="(min-width: 768px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-3-table@1x.jpg 1x,
+                        ./images/examples/table/portfolio-card-3-table@2x.jpg 2x,
+                        ./images/examples/table/portfolio-card-3-table@3x.jpg 3x
+                      " media="(min-width: 768px)" />
+
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-3-mobile@1x.webp 1x,
+                        ./images/examples/mobile/portfolio-card-3-mobile@2x.webp 2x,
+                        ./images/examples/mobile/portfolio-card-3-mobile@3x.webp 3x
+                      " media="(max-width: 767px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-3-mobile@1x.jpg 1x,
+                        ./images/examples/mobile/portfolio-card-3-mobile@2x.jpg 2x,
+                        ./images/examples/mobile/portfolio-card-3-mobile@3x.jpg 3x
+                      " media="(max-width: 767px)" />
+
+                                    <img class="img examples__img"
+                                        src="./images/examples/mobile/portfolio-card-3-mobile@1x.jpg"
+                                        alt="Restaurant logo" />
+                                </picture>
+
+                                <div class="examples__info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Distinctio&nbsp;voluptatem dolorum, molestias dolor sunt
+                                        sit adipisci debitis, earum eaque illum vero
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="examples__card">
+                                <h2 class="examples__title">Restaurant "Seafood"</h2>
+                                <p class="examples__text">Applications</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples__item">
+                        <a class="examples__link" href="#">
+                            <div class="examples__overlay">
+                                <picture>
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-4-desktop@1x.webp 1x,
+                        ./images/examples/desktop/portfolio-card-4-desktop@2x.webp 2x,
+                        ./images/examples/desktop/portfolio-card-4-desktop@3x.webp 3x
+                      " media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-4-desktop@1x.jpg 1x,
+                        ./images/examples/desktop/portfolio-card-4-desktop@2x.jpg 2x,
+                        ./images/examples/desktop/portfolio-card-4-desktop@3x.jpg 3x
+                      " media="(min-width: 1200px)" />
+
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-4-table@1x.webp 1x,
+                        ./images/examples/table/portfolio-card-4-table@2x.webp 2x,
+                        ./images/examples/table/portfolio-card-4-table@3x.webp 3x
+                      " media="(min-width: 768px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-4-table@1x.jpg 1x,
+                        ./images/examples/table/portfolio-card-4-table@2x.jpg 2x,
+                        ./images/examples/table/portfolio-card-4-table@3x.jpg 3x
+                      " media="(min-width: 768px)" />
+
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-4-mobile@1x.webp 1x,
+                        ./images/examples/mobile/portfolio-card-4-mobile@2x.webp 2x,
+                        ./images/examples/mobile/portfolio-card-4-mobile@3x.webp 3x
+                      " media="(max-width: 767px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-4-mobile@1x.jpg 1x,
+                        ./images/examples/mobile/portfolio-card-4-mobile@2x.jpg 2x,
+                        ./images/examples/mobile/portfolio-card-4-mobile@3x.jpg 3x
+                      " media="(max-width: 767px)" />
+
+                                    <img class="img examples__img"
+                                        src="./images/examples/mobile/portfolio-card-4-mobile@1x.jpg"
+                                        alt="Headphones" />
+                                </picture>
+
+                                <div class="examples__info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Distinctio&nbsp;voluptatem dolorum, molestias dolor sunt
+                                        sit adipisci debitis, earum eaque illum vero
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="examples__card">
+                                <h2 class="examples__title">Project "Prime"</h2>
+                                <p class="examples__text">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples__item">
+                        <a class="examples__link" href="#">
+                            <div class="examples__overlay">
+                                <picture>
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-5-desktop@1x.webp 1x,
+                        ./images/examples/desktop/portfolio-card-5-desktop@2x.webp 2x,
+                        ./images/examples/desktop/portfolio-card-5-desktop@3x.webp 3x
+                      " media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-5-desktop@1x.jpg 1x,
+                        ./images/examples/desktop/portfolio-card-5-desktop@2x.jpg 2x,
+                        ./images/examples/desktop/portfolio-card-5-desktop@3x.jpg 3x
+                      " media="(min-width: 1200px)" />
+
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-5-table@1x.webp 1x,
+                        ./images/examples/table/portfolio-card-5-table@2x.webp 2x,
+                        ./images/examples/table/portfolio-card-5-table@3x.webp 3x
+                      " media="(min-width: 768px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-5-table@1x.jpg 1x,
+                        ./images/examples/table/portfolio-card-5-table@2x.jpg 2x,
+                        ./images/examples/table/portfolio-card-5-table@3x.jpg 3x
+                      " media="(min-width: 768px)" />
+
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-5-mobile@1x.webp 1x,
+                        ./images/examples/mobile/portfolio-card-5-mobile@2x.webp 2x,
+                        ./images/examples/mobile/portfolio-card-5-mobile@3x.webp 3x
+                      " media="(max-width: 767px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-5-mobile@1x.jpg 1x,
+                        ./images/examples/mobile/portfolio-card-5-mobile@2x.jpg 2x,
+                        ./images/examples/mobile/portfolio-card-5-mobile@3x.jpg 3x
+                      " media="(max-width: 767px)" />
+
+                                    <img class="img examples__img"
+                                        src="./images/examples/mobile/portfolio-card-5-mobile@1x.jpg" alt="Two boxes" />
+                                </picture>
+
+                                <div class="examples__info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Distinctio&nbsp;voluptatem dolorum, molestias dolor sunt
+                                        sit adipisci debitis, earum eaque illum vero
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="examples__card">
+                                <h2 class="examples__title">Project "Boxes"</h2>
+                                <p class="examples__text">Applications</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples__item">
+                        <a class="examples__link" href="#">
+                            <div class="examples__overlay">
+                                <picture>
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-6-desktop@1x.webp 1x,
+                        ./images/examples/desktop/portfolio-card-6-desktop@2x.webp 2x,
+                        ./images/examples/desktop/portfolio-card-6-desktop@3x.webp 3x
+                      " media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-6-desktop@1x.jpg 1x,
+                        ./images/examples/desktop/portfolio-card-6-desktop@2x.jpg 2x,
+                        ./images/examples/desktop/portfolio-card-6-desktop@3x.jpg 3x
+                      " media="(min-width: 1200px)" />
+
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-6-table@1x.webp 1x,
+                        ./images/examples/table/portfolio-card-6-table@2x.webp 2x,
+                        ./images/examples/table/portfolio-card-6-table@3x.webp 3x
+                      " media="(min-width: 768px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-6-table@1x.jpg 1x,
+                        ./images/examples/table/portfolio-card-6-table@2x.jpg 2x,
+                        ./images/examples/table/portfolio-card-6-table@3x.jpg 3x
+                      " media="(min-width: 768px)" />
+
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-6-mobile@1x.webp 1x,
+                        ./images/examples/mobile/portfolio-card-6-mobile@2x.webp 2x,
+                        ./images/examples/mobile/portfolio-card-6-mobile@3x.webp 3x
+                      " media="(max-width: 767px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-6-mobile@1x.jpg 1x,
+                        ./images/examples/mobile/portfolio-card-6-mobile@2x.jpg 2x,
+                        ./images/examples/mobile/portfolio-card-6-mobile@3x.jpg 3x
+                      " media="(max-width: 767px)" />
+
+                                    <img class="img examples__img"
+                                        src="./images/examples/mobile/portfolio-card-6-mobile@1x.jpg"
+                                        alt="Website monitor" />
+                                </picture>
+
+                                <div class="examples__info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Distinctio&nbsp;voluptatem dolorum, molestias dolor sunt
+                                        sit adipisci debitis, earum eaque illum vero
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="examples__card">
+                                <h2 class="examples__title">Inspiration has no Borders</h2>
+                                <p class="examples__text">Web sites</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples__item">
+                        <a class="examples__link" href="#">
+                            <div class="examples__overlay">
+                                <picture>
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-7-desktop@1x.webp 1x,
+                        ./images/examples/desktop/portfolio-card-7-desktop@2x.webp 2x,
+                        ./images/examples/desktop/portfolio-card-7-desktop@3x.webp 3x
+                      " media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-7-desktop@1x.jpg 1x,
+                        ./images/examples/desktop/portfolio-card-7-desktop@2x.jpg 2x,
+                        ./images/examples/desktop/portfolio-card-7-desktop@3x.jpg 3x
+                      " media="(min-width: 1200px)" />
+
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-7-table@1x.webp 1x,
+                        ./images/examples/table/portfolio-card-7-table@2x.webp 2x,
+                        ./images/examples/table/portfolio-card-7-table@3x.webp 3x
+                      " media="(min-width: 768px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-7-table@1x.jpg 1x,
+                        ./images/examples/table/portfolio-card-7-table@2x.jpg 2x,
+                        ./images/examples/table/portfolio-card-7-table@3x.jpg 3x
+                      " media="(min-width: 768px)" />
+
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-7-mobile@1x.webp 1x,
+                        ./images/examples/mobile/portfolio-card-7-mobile@2x.webp 2x,
+                        ./images/examples/mobile/portfolio-card-7-mobile@3x.webp 3x
+                      " media="(max-width: 767px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-7-mobile@1x.jpg 1x,
+                        ./images/examples/mobile/portfolio-card-7-mobile@2x.jpg 2x,
+                        ./images/examples/mobile/portfolio-card-7-mobile@3x.jpg 3x
+                      " media="(max-width: 767px)" />
+
+                                    <img class="img examples__img"
+                                        src="./images/examples/mobile/portfolio-card-7-mobile@1x.jpg"
+                                        alt="Opened book" />
+                                </picture>
+
+                                <div class="examples__info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Distinctio&nbsp;voluptatem dolorum, molestias dolor sunt
+                                        sit adipisci debitis, earum eaque illum vero
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="examples__card">
+                                <h2 class="examples__title">Edition "Limited Edition"</h2>
+                                <p class="examples__text">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples__item">
+                        <a class="examples__link" href="#">
+                            <div class="examples__overlay">
+                                <picture>
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-8-desktop@1x.webp 1x,
+                        ./images/examples/desktop/portfolio-card-8-desktop@2x.webp 2x,
+                        ./images/examples/desktop/portfolio-card-8-desktop@3x.webp 3x
+                      " media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-8-desktop@1x.jpg 1x,
+                        ./images/examples/desktop/portfolio-card-8-desktop@2x.jpg 2x,
+                        ./images/examples/desktop/portfolio-card-8-desktop@3x.jpg 3x
+                      " media="(min-width: 1200px)" />
+
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-8-table@1x.webp 1x,
+                        ./images/examples/table/portfolio-card-8-table@2x.webp 2x,
+                        ./images/examples/table/portfolio-card-8-table@3x.webp 3x
+                      " media="(min-width: 768px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-8-table@1x.jpg 1x,
+                        ./images/examples/table/portfolio-card-8-table@2x.jpg 2x,
+                        ./images/examples/table/portfolio-card-8-table@3x.jpg 3x
+                      " media="(min-width: 768px)" />
+
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-8-mobile@1x.webp 1x,
+                        ./images/examples/mobile/portfolio-card-8-mobile@2x.webp 2x,
+                        ./images/examples/mobile/portfolio-card-8-mobile@3x.webp 3x
+                      " media="(max-width: 767px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-8-mobile@1x.jpg 1x,
+                        ./images/examples/mobile/portfolio-card-8-mobile@2x.jpg 2x,
+                        ./images/examples/mobile/portfolio-card-8-mobile@3x.jpg 3x
+                      " media="(max-width: 767px)" />
+
+                                    <img class="img examples__img"
+                                        src="./images/examples/mobile/portfolio-card-8-mobile@1x.jpg" alt="Logo tag" />
+                                </picture>
+
+                                <div class="examples__info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Distinctio&nbsp;voluptatem dolorum, molestias dolor sunt
+                                        sit adipisci debitis, earum eaque illum vero
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="examples__card">
+                                <h2 class="examples__title">Project "LAB"</h2>
+                                <p class="examples__text">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="examples__item">
+                        <a class="examples__link" href="#">
+                            <div class="examples__overlay">
+                                <picture>
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-9-desktop@1x.webp 1x,
+                        ./images/examples/desktop/portfolio-card-9-desktop@2x.webp 2x,
+                        ./images/examples/desktop/portfolio-card-9-desktop@3x.webp 3x
+                      " media="(min-width: 1200px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/desktop/portfolio-card-9-desktop@1x.jpg 1x,
+                        ./images/examples/desktop/portfolio-card-9-desktop@2x.jpg 2x,
+                        ./images/examples/desktop/portfolio-card-9-desktop@3x.jpg 3x
+                      " media="(min-width: 1200px)" />
+
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-9-table@1x.webp 1x,
+                        ./images/examples/table/portfolio-card-9-table@2x.webp 2x,
+                        ./images/examples/table/portfolio-card-9-table@3x.webp 3x
+                      " media="(min-width: 768px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/table/portfolio-card-9-table@1x.jpg 1x,
+                        ./images/examples/table/portfolio-card-9-table@2x.jpg 2x,
+                        ./images/examples/table/portfolio-card-9-table@3x.jpg 3x
+                      " media="(min-width: 768px)" />
+
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-9-mobile@1x.webp 1x,
+                        ./images/examples/mobile/portfolio-card-9-mobile@2x.webp 2x,
+                        ./images/examples/mobile/portfolio-card-9-mobile@3x.webp 3x
+                      " media="(max-width: 767px)" type="image/webp" />
+                                    <source srcset="
+                        ./images/examples/mobile/portfolio-card-9-mobile@1x.jpg 1x,
+                        ./images/examples/mobile/portfolio-card-9-mobile@2x.jpg 2x,
+                        ./images/examples/mobile/portfolio-card-9-mobile@3x.jpg 3x
+                      " media="(max-width: 767px)" />
+
+                                    <img class="img examples__img"
+                                        src="./images/examples/mobile/portfolio-card-9-mobile@1x.jpg"
+                                        alt="Laptop with application" />
+                                </picture>
+                                <div class="examples__info">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Distinctio&nbsp;voluptatem dolorum, molestias dolor sunt
+                                        sit adipisci debitis, earum eaque illum vero
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="examples__card">
+                                <h2 class="examples__title">Growing Business</h2>
+                                <p class="examples__text">Applications</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__box">
+                <div class="footer__info">
+                    <a class="logo footer__logo" href="./index.html">
+                        Web<span class="footer__logo--white">Studio</span></a>
+
+                    <address class="address">
+                        <ul class="list">
+                            <li class="address__item">
+                                <a class="link address__link--white" href="https://goo.gl/maps/E6a8A6PKzvvzx87p6"
+                                    target="_blank" rel="noopener noreferrer">
+                                    Kyiv, Lesi Ukrainky Blvd, 26, Kyiv</a>
+                            </li>
+                            <li class="address__item">
+                                <a class="link address__link--grey" href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                            <li class="address__item">
+                                <a class="link address__link--grey" href="tel:+380991111111">+38 099 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+
+                <div class="follow">
+                    <h2 class="footer__title">FOLLOW US</h2>
+                    <ul class="list follow__list">
+                        <li class="follow__item">
+                            <a class="follow__link" href="">
+                                <svg width="20" height="20" aria-label="instagram">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="follow__item">
+                            <a class="follow__link" href="">
+                                <svg width="20" height="20" aria-label="twitter">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="follow__item">
+                            <a class="follow__link" href="">
+                                <svg width="20" height="20" aria-label="facebook">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="follow__item">
+                            <a class="follow__link" href="">
+                                <svg width="20" height="20" aria-label="linkedin">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <form class="newsletter">
+                <h2 class="footer__title">SUBSCRIBE TO NEWSLETTER</h2>
+
+                <div class="newsletter__box">
+                    <input class="newsletter__email" required type="email" name="email" placeholder="E-mail" />
+
+                    <button class="btn newsletter__btn" type="submit">
+                        <span class="newsletter__title">Subscribe</span>
+                        <svg width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </footer>
+
+    <script src="./js/mobile-menu.js"></script>
+</body>
+
+</html>

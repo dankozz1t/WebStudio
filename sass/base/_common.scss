@@ -1,0 +1,33 @@
+body {
+    font-family: var(--main-font);
+    color: var(--main-text-cl);
+    background: var(--main-bg-cl);
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+
+    transition: color var(--transition-time) var(--transition-cubic);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-text-cl);
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
+}
