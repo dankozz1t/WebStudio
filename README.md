@@ -14,8 +14,8 @@
 ![Demonstration](https://github.com/dankozz1t/WebStudio/blob/main/images/demo.gif)
 > Why are you watching video? [Check it out yourself!](https://dankozz1t.github.io/WebStudio/ "Demonstration")
 
-- Look at [**Layout (Figma)**](<https://www.figma.com/file/oTYBECAN79dXy19hzWObO4/Web-Studio-(Version-2.1)?node-id=1%3A3330>)
-- Look at [**WebSite (GitPages)**](<https://dankozz1t.github.io/goit-markup-hw-08/>)
+- Look at [**Layout (Figma)**](<https://www.figma.com/file/SCRJkW1oEg1hUzH170RFeH/DONUT-MASTERCLASS-(Copy)-(Copy)-(Copy)?node-id=0%3A1>)
+- Look at [**WebSite (GitPages)**](<https://dankozz1t.github.io/WebStudio/>)
 
 ---
 ### Through this project, I learned 
